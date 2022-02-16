@@ -134,3 +134,37 @@ ol p{
         margin: 30px;
     }
  }
+@media screen and (max-width: 420px) {
+    .one img{
+        height: 150px;
+    }
+    .text{
+        font-size: 80px;
+        padding-bottom: 250px;
+    }
+    ol img{
+        width: 250px;
+        height: 150px;
+        padding-right: 10px;
+    }
+    body{
+        margin: 20px;
+    }
+ }
+@media screen and (max-width: 350px) {
+    .one img{
+        height: 100px;
+    }
+    .text{
+        font-size: 50px;
+        padding-bottom: 250px;
+    }
+    ol img{
+        width: 200px;
+        height: 150px;
+        padding-right: 10px;
+    }
+    body{
+        margin: 10px;
+    }
+ }
